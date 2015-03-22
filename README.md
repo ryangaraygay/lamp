@@ -13,3 +13,13 @@ Known Issues (includes but not limited to):
 * there are redundancies in the Berksfile, metadata.rb
   and in roles/vagrant-test-box.rb
 * there is no database setup and ready for a mysql based php app
+* cookbooks are copied locally to this repo so you might (likely) not get latest versions
+  you might need to do "berks vendor cookbooks" when you make changes to dependencies
+
+Usage
+* install Virtualbox
+* install Chef Development Kit
+* install Vagrant
+* clone the repo
+* go inside the folder (cloned repo)
+* vagrant up
